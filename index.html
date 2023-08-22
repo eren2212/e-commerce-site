@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- topbar -->
+    <section id="topbar">
+        <div class="container mt-3">
+            <div class="row align-items-center g-2">
+                <div class=" col-lg-2 col-sm-4 col-4">
+                    <a href="index.html" class="navbar-brand text-primary fs-5">E-Commerce</a>
+                </div>
+                
+                <div class=" order-lg-last col-sm-8 col-lg-5 col-8">
+                    <div class="float-end">
+                        <button class="btn btn-light">
+                            <i class="fa fa-user "></i>
+                            <span>Hesabım</span>
+                        </button>
+                        <button class="btn btn-light">
+                            <i class="fa fa-heart"></i></i>
+                            <span>Listem</span>
+                        </button>
+                        <button class="btn btn-light">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>Sepetim</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <form class="d-flex">
+                        <input type="text" class="form-control rounded-end-0" placeholder="Anahtar Kelime">
+                        <button class="btn btn-primary rounded-start-0" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- navbar -->
+    <section id="navbar" class="bg-primary mt-3">
+        <div class="navbar navbar-dark navbar-expand-lg">
+            <div class="container">
+             
+                        <button class="navbar-toggler border my-1" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarScroll">  
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav " >
+                            <li class="nav-item"><a href="#" class="nav-link ps-0">Elektronik</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Moda</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Kozmetik</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Spor</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Market</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Kitap</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Diğer Kategoriler</a>
+                                <ul class="dropdown-menu text-black">
+                                    <li><a href="" class="dropdown-item">Category -1</a>
+                                    </li>
+    
+                                    <li><a href="" class="dropdown-item">Category -2</a>
+                                    </li>
+    
+                                    <li><a href="" class="dropdown-item">Category -3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                   
+               
+            </div>
+        </div>
+    </section>
+
+     <!-- slider -->
+    <section class="slider">
+        <div class="container mt-3">
+            <div class="card">
+                <div class="row">       
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="card-body " >
+                            <nav class="nav nav-pills flex-column rounded overflow-auto flex-nowrap slider__nav" >
+                                <a href="#" class="nav-link active rounded">Elektronik</a>
+                                <a href="#" class="nav-link">Moda</a>
+                                <a href="#" class="nav-link">Kozmetik</a>
+                                <a href="#" class="nav-link">Spor</a>
+                                <a href="#" class="nav-link">Market</a>
+                                <a href="#" class="nav-link">Kitap</a>
+                                <a href="#" class="nav-link">Anne Bebek</a>
+                                <a href="#" class="nav-link">Oyuncak</a>
+                                <a href="#" class="nav-link">Oyuncak</a>
+                                <a href="#" class="nav-link">Oyuncak</a>
+                                <a href="#" class="nav-link">Oyuncak</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div id="slider" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="img/slider-1.jpeg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/slider-2.jpeg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/slider-3.jpeg"  class="d-block w-100" alt="">
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" ></button>
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" ></button>
+                                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" ></button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+    <section id="content">
+        <div class="container">
+            <h2 class="section-title my-3">Son Eklenenler</h2>
+            <div class="row">
+                
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/1.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                               
+                                <img src="img/2.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/3.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-danger"> Fırsat ürün </b>
+                                <img src="img/4.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/5.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/6.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/7.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                        <div class="card  shadow ">
+                            <a href="detalis.html" class="img-wrap">
+                                <b class="badge bg-success"> İndirim </b>
+                                <img src="img/8.jpeg"  alt="">
+                            </a>
+                            <hr>
+                            <div class="card-body ">
+                                <a href="" class="btn btn-light border float-end">
+                                    <i class="fa fa-heart"></i>
+                                </a>
+                                <p class="text-muted text-truncate">Apple Watch Yıldız Işığı Alüminyum Kasa Spor Kordon</p>
+                               <div class="price d-flex">
+                                <p class="me-2">6.599 TL</p>
+                                <del>6.999 TL</del>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="footer" class="bg-primary mt-2">
+        <footer class="py-4">
+            <div class="container">
+                <div class="row align-items-center g-4 g-md-0">
+                    <div class="col-md-4">
+                        <form >
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <button class="btn btn-outline-warning">Abone Ol</button>
+                            </div>
+                           
+                        </form>
+                        
+                    </div>
+                    <div class="col-md-8 ">
+                        <nav class="social-icon text-md-end text-center">
+                            <a href="#" class="btn btn-outline-warning"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-outline-warning"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="btn btn-outline-warning"><i class="fab fa-twitter"></i></a>
+
+                        </nav>
+                    </div>
+
+                    <div class="col-12 text-center pt-4 text-white">
+                        <p>@2025 Tüm Hakları Saklıdır.</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
